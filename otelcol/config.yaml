@@ -3,7 +3,7 @@ name: OpenTelemetry Collector
 version: dev
 slug: otelcol
 description: Bring the OpenTelemetry collector into your home
-url: "https://github.com/cedricziel/ha-addon-otelcol"
+url: "https://github.com/mcinnes01/ha-addon-otelcol"
 ports:
   4317/tcp: null
   4318/tcp: null
@@ -51,4 +51,4 @@ options:
           exporters: [logging]
 schema:
   config: "str"
-image: "ghcr.io/cedricziel/{arch}-ha-addon-otelcol"
+image: "ghcr.io/mcinnes01/{arch}-ha-addon-otelcol"
